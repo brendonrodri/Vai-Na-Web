@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.section`
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     background: #fff;
     display: flex;
+    margin: 20px 0;
     justify-content: center;
 `
 export const AboutArticle = styled.article`
