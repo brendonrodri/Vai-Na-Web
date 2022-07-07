@@ -1,8 +1,8 @@
 import styled from "styled-components";
 export const FormacaoComponent = styled.section`
     width: 100%;
-    margin-top: 8%;
-    height: 100vh;
+    margin-top: 6%;
+    height: 78vh;
     display: flex;
     justify-content: flex-end;
     h2{
@@ -22,6 +22,7 @@ export const FormacaoTextBox = styled.div`
     flex-direction: column;
     position: relative;
     left: 7%;
+    top: 5%;
 `
 export const FormacaoDescriptionBox = styled.div`
     width: 70%;
