@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 export const AboutContainer = styled.section`
     width: 100%;
     height: 85vh;
@@ -9,7 +8,7 @@ export const AboutContainer = styled.section`
     justify-content: center;
 `
 export const AboutArticle = styled.article`
-    width: 60%;
+    width: 58%;
     height: 100%;
     padding: 10px;
     display: flex;
