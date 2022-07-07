@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import headerbackground from "../../Assets/headerbackground.png"
 
 export const NavBarContainer = styled.nav`
     width: 100%;
@@ -7,6 +8,8 @@ export const NavBarContainer = styled.nav`
     justify-content: space-around;
     align-items: center;
     position: fixed;
+    background: url(${headerbackground});
+    z-index: 2;
   
 `
 export const MenuList = styled.ul`

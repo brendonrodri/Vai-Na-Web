@@ -1,6 +1,7 @@
 import React from "react"
 import { createGlobalStyle } from "styled-components"
 import HeaderComponent from "./Components/Header/index"
+import MainComponent from "./Components/Main"
 import NavBar from "./Components/NavBar"
 import "./style.css"
 const GlobalStyle = createGlobalStyle`
@@ -14,9 +15,10 @@ const GlobalStyle = createGlobalStyle`
 export default function App (){
   return(
     <>
-      {NavBar()}
       <GlobalStyle />
+      {NavBar()}
       {HeaderComponent()}
+      {MainComponent()}
     </>
   )
 }
