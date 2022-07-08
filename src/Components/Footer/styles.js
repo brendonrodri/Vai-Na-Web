@@ -5,7 +5,7 @@ export const FooterContainer = styled.footer`
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-   
+   margin-top: 150px;
     width: 100%;
     height: 55vh;
     background: url(${Footerbackground});

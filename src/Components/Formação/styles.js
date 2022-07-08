@@ -1,10 +1,11 @@
 import styled from "styled-components";
 export const FormacaoComponent = styled.section`
     width: 100%;
-    margin-top: 60px;
-    height: 78vh;
+    margin-top: 0px;
+    height: 100vh;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     h2{
         font-size: 2.3em;
         color: #00145D;

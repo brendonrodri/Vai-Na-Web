@@ -1,10 +1,10 @@
 import React from "react";
-import * as S from "./styles"
-import eventsimg from "../../Assets/eventsimg.png"
+import * as S from "./styles";
+import eventsimg from "../../Assets/eventsimg.png";
 import { H2,H3, P2 } from "../GlobalStyles";
 export default function EventsComponent (){
     return(
-        <S.EventsContainer>   
+        <S.EventsContainer id="Events">   
             <H2>
                 Eventos
             </H2>    
@@ -18,5 +18,5 @@ export default function EventsComponent (){
                     </S.EventsTextCard>          
                 </section>  
         </S.EventsContainer>
-    )
+    );
 }

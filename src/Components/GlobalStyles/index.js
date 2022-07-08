@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
   *{
     margin: 0;
@@ -12,8 +12,10 @@ export const LinkStyle = styled.a`
     color: #fff;
 `
 export const LogoSmall = styled.img`
-   position: relative;
-   right: 30%;
+   position: fixed;
+   float: left;
+   right: 93%;
+   top: 10px;
    width: 68px;
    height: 44px;
 `

@@ -1,8 +1,7 @@
-import React from "react"
-import { LinkStyle, P } from "../GlobalStyles"
-import NavBar from "../NavBar"
-import SubscribeComponent from "./Components/SubscribeCard"
-import * as S from "./styles"
+import React from "react";
+import { LinkStyle, P } from "../GlobalStyles";
+import SubscribeComponent from "./Components/SubscribeCard";
+import * as S from "./styles";
 export default function HeaderComponent (){
     return(
         <S.HeaderContainer>
@@ -13,8 +12,6 @@ export default function HeaderComponent (){
                 </S.HeaderTitleComponent>
                 <SubscribeComponent />
                 <S.HeaderParagraph><b>Link para o formulário</b> <LinkStyle href="http://bit.ly/CarreiraVaiNaWeb">bit.ly/CarreiraVaiNaWeb</LinkStyle></S.HeaderParagraph>
-        </S.HeaderContainer>
-            
-            
-    )
+        </S.HeaderContainer>      
+    );
 }

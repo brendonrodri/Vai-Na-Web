@@ -1,6 +1,6 @@
 import React from "react";
 import { H2, P } from "../../GlobalStyles";
-import * as S from "../styles"
+import * as S from "../styles";
 const AboutText = ()=>{
     return(
         <S.AboutArticle>
@@ -15,6 +15,6 @@ const AboutText = ()=>{
                 Com o objetivo de acentuar a potência mundial que é a juventude, o Vai na Web tem se tornado cada vez mais um lugar de transformação. Através da cultura do afeto, a equipe do programa entende que “educar não é impor informação, é trocar” e sua maior riqueza, segundo a coordenadora executiva, Cris dos Prazeres, “é respeitar a geração da juventude que está nesse processo de compartilhar”.
             </P>
         </S.AboutArticle>
-    )
+    );
 }
-export default AboutText 
+export default AboutText;

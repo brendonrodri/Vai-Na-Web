@@ -18,6 +18,10 @@ export const HeaderTitleComponent = styled.div`
     position: relative;
     bottom: 2%;
     left: 15%;
+    -webkit-animation: fadeIn 1s ease-in-out;
+    -moz-animation: fadeIn 1s ease-in-out;
+    -o-animation: fadeIn .1s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
 `
 export const HeaderTitle = styled.h1`
     font:  normal 800 2.5em Montserrat;
@@ -36,6 +40,10 @@ export const HeaderParagraph = styled.p`
     b{
         color: #FED5B2;
     }
+    -webkit-animation: fadeIn 1s ease-in-out;
+    -moz-animation: fadeIn 1s ease-in-out;
+    -o-animation: fadeIn .1s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
 `
 export const SubscribeCard = styled.div`
     width: 43vw;
@@ -47,12 +55,45 @@ export const SubscribeCard = styled.div`
     margin: 30px 0 5px 0;
     position: relative;
     left: 15%;
+    -webkit-animation: fadeIn 1s ease-in-out;
+    -moz-animation: fadeIn 1s ease-in-out;
+    -o-animation: fadeIn .1s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
+    @-webkit-keyframes fadeIn {
+        from { opacity: 0;
+             transform: translateX(-100px);
+        }
+        to { opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+    @-moz-keyframes fadeIn {
+        from { opacity: 0;
+             transform: translateX(-100px);
+        }
+        to { opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+    @-o-keyframes fadeIn {
+        from { opacity: 0;
+             transform: translateX(-100px);
+        }
+        to { opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+    @keyframes fadeIn {
+        from { opacity: 0;
+             transform: translateX(-100px);
+        }
+        to { opacity: 1;
+            transform: translateX(0px);
+        }
+    }
     p{
         font-size: 1.4em;
         margin: 10px 0 0 0 ;
         color: #272727;
     }
-`
-export const SvgBox = styled.div`
-
 `

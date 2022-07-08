@@ -4,7 +4,7 @@ import Formacaoimg from "../../Assets/Formacaoimg.jpg"
 import * as S from "./styles";
 export default function FormacaoComponent(){
     return(
-        <S.FormacaoComponent>
+        <S.FormacaoComponent id="Formation">
             <FormacaoText />
             <img src={Formacaoimg} />
         </S.FormacaoComponent>

@@ -6,7 +6,9 @@ export const EventsContainer = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin: 50px auto;
+    position: relative;
+    top: 100px;
+    margin: 10px auto;
     section{
         display: flex;
         align-items: center;
@@ -24,7 +26,7 @@ export const EventsContainer = styled.section`
     }
 `
 export const EventsImg = styled.img`
-    width: 75vw;
+    width: 70vw;
     position: relative;
     left: 20px;
     
