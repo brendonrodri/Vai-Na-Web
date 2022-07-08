@@ -1,7 +1,7 @@
 # Site de apresentação do Vai na Web Desenvolvido com ReactJS
 
 Trata-se de um site institucional com informações sobre o Vai Na Web e linkagens para suas respectivas redes sociais. 
-Possui também uma área dedicada à e uma barra de pesquisa onde poderá pesquisar um membro específico da equipe.
+Possui também uma área dedicada à equipe e uma barra de pesquisa onde poderá pesquisar um membro específico da equipe.
 
 ## Telas 
 
