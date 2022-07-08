@@ -7,7 +7,6 @@ export const NavBarContainer = styled.nav`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: fixed;
     background: url(${headerbackground});
     z-index: 2;
   
