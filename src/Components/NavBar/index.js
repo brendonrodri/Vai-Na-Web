@@ -5,7 +5,7 @@ import LogoSmallImg from "../../Assets/LogoSmall.png"
 const NavBar = ()=>{
     return(
         <S.NavBarContainer>
-            <a href="https://www.vainaweb.com.br/" target="_blank"><LogoSmall src={LogoSmallImg} alt="Logomarca do Vai na Web. Letras amarelas com o contorno azul e viração laranja" /></a>
+            <a href="#" target="_self"><LogoSmall src={LogoSmallImg} alt="Logomarca do Vai na Web. Letras amarelas com o contorno azul e viração laranja" /></a>
             <MenuList/>
         </S.NavBarContainer>
     );
