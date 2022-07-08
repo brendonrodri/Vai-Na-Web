@@ -26,5 +26,6 @@ export const MenuItem = styled.li`
     font:  1.3em Montserrat;
     &:hover{
         font-weight: bold;
+        border: 2px solid 
     }
 `
