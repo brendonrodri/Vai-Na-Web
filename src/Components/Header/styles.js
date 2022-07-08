@@ -38,8 +38,8 @@ export const HeaderParagraph = styled.p`
     }
 `
 export const SubscribeCard = styled.div`
-    width: 35vw;
-    height: 23vh;
+    width: 43vw;
+    height: 26vh;
     padding: 13px;
     background: #FFFFFF;
     box-shadow: 0px 5px 12px #00145D29;
@@ -47,4 +47,12 @@ export const SubscribeCard = styled.div`
     margin: 30px 0 5px 0;
     position: relative;
     left: 15%;
+    p{
+        font-size: 1.4em;
+        margin: 10px 0 0 0 ;
+        color: #272727;
+    }
+`
+export const SvgBox = styled.div`
+
 `

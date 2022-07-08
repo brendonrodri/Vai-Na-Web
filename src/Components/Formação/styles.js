@@ -1,7 +1,7 @@
 import styled from "styled-components";
 export const FormacaoComponent = styled.section`
     width: 100%;
-    margin-top: 6%;
+    margin-top: 60px;
     height: 78vh;
     display: flex;
     justify-content: flex-end;

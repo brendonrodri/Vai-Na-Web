@@ -23,8 +23,12 @@ export const LogoLg = styled.img`
     margin: 20px;
 `
 export const H2 = styled.h2`
-    font: bold 2em Montserrat;
+    font: bold 2.2em Montserrat;
     color: #00145D;
+`
+export const H2Withe = styled.h2`
+  font: bold 2.8em Montserrat;
+    color: #ffffff;
 `
 export const H3 = styled.h3`
     font: normal normal bold 1.2em Montserrat;

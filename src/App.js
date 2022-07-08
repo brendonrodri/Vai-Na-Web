@@ -1,4 +1,5 @@
 import React from "react"
+import FooterComponent from "./Components/Footer"
 import { GlobalStyle } from "./Components/GlobalStyles"
 import HeaderComponent from "./Components/Header/index"
 import MainComponent from "./Components/Main"
@@ -11,6 +12,7 @@ export default function App (){
       {NavBar()}
       {HeaderComponent()}
       {MainComponent()}
+      {FooterComponent()}
     </>
-  )
+  );
 }
