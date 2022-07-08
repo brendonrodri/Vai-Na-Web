@@ -10,7 +10,6 @@ const NavBar = ()=>{
         </S.NavBarContainer>
     );
 }
-
 export const  MenuList = ()=>{
     return(
         <S.MenuList>
